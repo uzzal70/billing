@@ -233,7 +233,7 @@ document.getElementById('item10').addEventListener('keyup', function ()
 function totalAmount()
 {
     document.getElementById('product-statement').innerHTML = htmlBookShow + cssBookShow + jsBookShow + phpBookShow + pythonBookShow;
-    document.getElementById('total-amount').innerHTML = htmlBookAmount + cssBookAmount + phpBookAmount + pythonBookAmount;
+    document.getElementById('total-amount').innerHTML = htmlBookAmount + cssBookAmount + jsBookAmount + phpBookAmount + pythonBookAmount;
 }
 
 // else {
