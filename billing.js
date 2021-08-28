@@ -236,8 +236,6 @@ function totalAmount()
     document.getElementById('total-amount').innerHTML = htmlBookAmount + cssBookAmount + jsBookAmount + phpBookAmount + pythonBookAmount;
 }
 
-// else {
-//     document.getElementById('product-statement').innerHTML = "";
-// }
+
 
 
