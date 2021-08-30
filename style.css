@@ -39,6 +39,9 @@ h2,h3{
     margin: 5px;
     padding: 5px;
 }
+.items{
+text-align: center;
+}
 .info1{
     display: flex;
     justify-content: space-between;
@@ -68,5 +71,17 @@ hr{
 }
 .total .signature{
 margin-top: 100px;
+}
+
+button{
+    padding: 5px 20px;
+    color: black;
+    border-radius: 50px;
+}
+button:hover{
+    background-color:rgb(2, 2, 31);
+    padding: 5px 20px;
+    color: white;
+    border-radius: 50px;
 }
 

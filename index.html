@@ -22,6 +22,7 @@
                 <div class="info">
                     <p>Name: <input type="text" placeholder="YourName" id="name"></p>
                     <p>Phone: <input type="text" placeholder="PhoneNumber" id="phone"></p>
+                    <button onclick="changeInfo()"> Submit </button>
                 </div>
             </fieldset>
             <fieldset style="width: fit-content; padding: 20px 30px;">
@@ -29,60 +30,10 @@
                     <h2>Product List</h2>
                 </legend>
                 <div class="items">
-
-                    <!-- <select id="cars">
-                        <option value="volvo">Html Book: 
-                            <input type="text" placeholder="Quntity" id="item1"></option>
-                        <option value="">CSS Book: <input type="text" placeholder="Quntity" id="item2"></option>
-                        <option value="">JS Book: <input type="text" placeholder="Quntity" id="item3"></option>
-                        <option value="">Python Book: <input type="text" placeholder="Quntity" id="item5"></option>
-                    </select> -->
-
-                    <!-- <select name="" id="">
-                        <option id="item1" value="">
-                            <p id="p-item">Html Book:
-                                
-                            </p>
-                        </option>
-                        <option value="">
-                            <p>CSS Book:
-                                
-                            </p>
-                        </option>
-
-                        <option value="">
-                            <p>Html Book: <input type="text" placeholder="Quntity" id="item3"></p>
-                        </option>
-                        <option value="">
-                            <p>Html Book: <input type="text" placeholder="Quntity" id="item4"></p>
-                        </option>
-                        <option value="">
-                            <p>Html Book: <input type="text" placeholder="Quntity" id="item5"></p>
-                        </option>
-
-                    </select> -->
-
-                    <!--  -->
-                    <p id="p-item">Html Book:&nbsp;&nbsp;&nbsp;
-                        <input type="text" placeholder="Price" id="item1">
-                        <input type="text" placeholder="Quntity" id="item2">
-                    </p>
-                    <p>CSS Book:&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text" placeholder="Price" id="item3">
-                        <input type="text" placeholder="Quntity" id="item4">
-                    </p>
-                    <p>JS Book: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text" placeholder="Price" id="item5">
-                        <input type="text" placeholder="Quntity" id="item6">
-                    </p>
-                    <p>PHP Book:&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text" placeholder="Price" id="item7">
-                        <input type="text" placeholder="Quntity" id="item8">
-                    </p>
-                    <p>Python Book:
-                        <input type="text" placeholder="Price" id="item9">
-                        <input type="text" placeholder="Quntity" id="item10">
-                    </p>
+                    <input type="text" placeholder="Product" id="item1">
+                    <input type="text" placeholder="Quntity" id="item2">
+                    <input type="text" placeholder="Price" id="item3">
+                    <button onclick="addItem()">Add Item</button>
                 </div>
             </fieldset>
         </div>
@@ -90,21 +41,20 @@
             <h2>Company Name</h2>
             <h3>Shop Reciept</h3>
             <div class="info1">
-                <div><label for="name">Your Name: <span id="name1"></span> </label><br>
-                    <label for="phone">Your Phone: +880<span id="phone1"></span></label><br>
+                <div>
+                    <label for="name">Your Name: <span id="name1"></span> </label><br>
+                    <label for="phone">Your Phone: +88<span id="phone1"></span></label><br>
                     <label for="email">Customer Id: 001 </label>
                 </div>
-                <div id="demo">
-                </div>
+
             </div>
             <div class="itmes1">
                 <table>
                     <thead>
                         <tr>
                             <th>Menu</th>
-                            <th>Price</th>
                             <th>Quantity</th>
-                            <th>Amount</th>
+                            <th>Price</th>
                         </tr>
                     </thead>
                     <tbody id="product-statement">
@@ -117,6 +67,7 @@
                 <h3>Total Amount</h3>
                 <h3>= <span id="total-amount">00</span>Tk</h3>
             </div>
+
             <div class="total">
                 <div class="signature">
                     <p>-------------------------</p>
@@ -130,7 +81,9 @@
 
         </div>
     </div>
-    <script src="billing.js"></script>
+    <script src="main.js"></script>
+
 </body>
+
 
 </html>
